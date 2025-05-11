@@ -32,6 +32,28 @@
 
   <div id="result"></div>
 
+  <section id="pill-identifier">
+    <h2>Pill Identifier</h2>
+
+    <label for="pillImprint">Pill Imprint (letters/numbers on pill):</label>
+    <input type="text" id="pillImprint" placeholder="e.g. IP 204" />
+
+    <label for="pillColor">Pill Color:</label>
+    <input type="text" id="pillColor" placeholder="e.g. white" />
+
+    <label for="pillShape">Pill Shape:</label>
+    <input type="text" id="pillShape" placeholder="e.g. oval" />
+
+    <button type="button" onclick="identifyPill()">Identify Pill</button>
+
+    <div id="pill-result"></div>
+  </section>
+
+  <section id="learn-more">
+    <h2>Learn More: Chemical Effects on the Body</h2>
+    <p id="chemicalInfo">Select a toxin to learn how it interacts with your pet's system.</p>
+  </section>
+
   <script src="script.js"></script>
 </body>
 </html>
