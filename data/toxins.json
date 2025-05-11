@@ -21,7 +21,7 @@
     { "name": "Household Cleaners", "threshold_mg_per_kg": 2, "symptoms": ["drooling", "vomiting", "chemical burns"], "urgency": "high" },
     { "name": "Paint Thinners", "threshold_mg_per_kg": 1, "symptoms": ["vomiting", "aspiration pneumonia", "CNS depression"], "urgency": "high" },
     { "name": "Toothpaste with Xylitol", "threshold_mg_per_kg": 0.1, "symptoms": ["vomiting", "seizures", "liver failure"], "urgency": "high" }
-    // Additional entries would continue here
+ 
   ],
   "cat": [
     { "name": "Lilies", "threshold_mg_per_kg": 0.1, "symptoms": ["vomiting", "lethargy", "kidney failure"], "urgency": "high" },
@@ -44,7 +44,7 @@
     { "name": "Moldy Food", "threshold_mg_per_kg": 2, "symptoms": ["tremors", "seizures"], "urgency": "high" },
     { "name": "Nicotine", "threshold_mg_per_kg": 1, "symptoms": ["excitation", "tremors", "vomiting"], "urgency": "high" },
     { "name": "Batteries", "threshold_mg_per_kg": 0.5, "symptoms": ["mouth ulcers", "drooling"], "urgency": "high" }
-    // Additional entries would continue here 
+    
   ],
   "guinea_pig": [
     { "name": "Avocado", "threshold_mg_per_kg": 0.1, "symptoms": ["respiratory distress", "fluid accumulation", "heart issues", "pancreatitis"], "urgency": "high" },
