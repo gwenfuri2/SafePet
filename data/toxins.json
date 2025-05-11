@@ -1,0 +1,48 @@
+
+{
+  "dog": [
+    { "name": "Chocolate", "threshold_mg_per_kg": 20, "symptoms": ["vomiting", "diarrhea", "hyperactivity", "tremors", "seizures"], "urgency": "high" },
+    { "name": "Grapes and Raisins", "threshold_mg_per_kg": 10, "symptoms": ["vomiting", "lethargy", "kidney failure"], "urgency": "high" },
+    { "name": "Xylitol", "threshold_mg_per_kg": 0.1, "symptoms": ["vomiting", "lethargy", "loss of coordination", "seizures", "liver failure"], "urgency": "high" },
+    { "name": "Onions and Garlic", "threshold_mg_per_kg": 15, "symptoms": ["weakness", "vomiting", "breathlessness", "anemia"], "urgency": "moderate" },
+    { "name": "Ibuprofen", "threshold_mg_per_kg": 50, "symptoms": ["vomiting", "ulcers", "kidney failure"], "urgency": "high" },
+    { "name": "Alcohol", "threshold_mg_per_kg": 3, "symptoms": ["vomiting", "disorientation", "respiratory distress", "seizures"], "urgency": "high" },
+    { "name": "Macadamia Nuts", "threshold_mg_per_kg": 2.4, "symptoms": ["weakness", "depression", "vomiting", "tremors", "hyperthermia"], "urgency": "moderate" },
+    { "name": "Avocado", "threshold_mg_per_kg": 30, "symptoms": ["vomiting", "diarrhea", "myocardial damage"], "urgency": "moderate" },
+    { "name": "Caffeine", "threshold_mg_per_kg": 140, "symptoms": ["restlessness", "rapid breathing", "heart palpitations", "tremors"], "urgency": "high" },
+    { "name": "Yeast Dough", "threshold_mg_per_kg": 5, "symptoms": ["bloating", "disorientation", "respiratory distress"], "urgency": "high" },
+    { "name": "Rodenticides", "threshold_mg_per_kg": 0.1, "symptoms": ["bleeding", "lethargy", "difficulty breathing"], "urgency": "high" },
+    { "name": "Antifreeze (Ethylene Glycol)", "threshold_mg_per_kg": 4.4, "symptoms": ["vomiting", "seizures", "kidney failure"], "urgency": "high" },
+    { "name": "Mushrooms (toxic types)", "threshold_mg_per_kg": 2, "symptoms": ["vomiting", "diarrhea", "abdominal pain", "seizures"], "urgency": "high" },
+    { "name": "Vitamin D (high dose)", "threshold_mg_per_kg": 0.1, "symptoms": ["vomiting", "increased thirst", "kidney failure"], "urgency": "high" },
+    { "name": "Salt", "threshold_mg_per_kg": 4, "symptoms": ["vomiting", "tremors", "seizures", "coma"], "urgency": "high" },
+    { "name": "Iron Supplements", "threshold_mg_per_kg": 20, "symptoms": ["vomiting", "diarrhea", "shock"], "urgency": "high" },
+    { "name": "Citrus Oil Extracts", "threshold_mg_per_kg": 10, "symptoms": ["vomiting", "diarrhea", "photosensitivity"], "urgency": "moderate" },
+    { "name": "Household Cleaners", "threshold_mg_per_kg": 2, "symptoms": ["drooling", "vomiting", "chemical burns"], "urgency": "high" },
+    { "name": "Paint Thinners", "threshold_mg_per_kg": 1, "symptoms": ["vomiting", "aspiration pneumonia", "CNS depression"], "urgency": "high" },
+    { "name": "Toothpaste with Xylitol", "threshold_mg_per_kg": 0.1, "symptoms": ["vomiting", "seizures", "liver failure"], "urgency": "high" },
+
+    { "name": "Moldy Food", "threshold_mg_per_kg": 1, "symptoms": ["tremors", "seizures", "vomiting"], "urgency": "high" },
+    { "name": "Cigarettes/Nicotine", "threshold_mg_per_kg": 1, "symptoms": ["drooling", "excitation", "tremors", "seizures"], "urgency": "high" },
+    { "name": "Batteries", "threshold_mg_per_kg": 0.5, "symptoms": ["mouth ulcers", "drooling", "vomiting"], "urgency": "high" },
+    { "name": "Glow Sticks", "threshold_mg_per_kg": 2, "symptoms": ["drooling", "irritation", "vomiting"], "urgency": "low" },
+    { "name": "Tobacco", "threshold_mg_per_kg": 1, "symptoms": ["vomiting", "excitation", "tachycardia", "seizures"], "urgency": "high" },
+    { "name": "Raw Bread Dough", "threshold_mg_per_kg": 5, "symptoms": ["bloating", "alcohol toxicosis"], "urgency": "high" },
+    { "name": "Deodorants", "threshold_mg_per_kg": 2, "symptoms": ["vomiting", "diarrhea"], "urgency": "moderate" },
+    { "name": "Detergents", "threshold_mg_per_kg": 1, "symptoms": ["drooling", "vomiting", "chemical burns"], "urgency": "high" },
+    { "name": "Fertilizers", "threshold_mg_per_kg": 2, "symptoms": ["vomiting", "diarrhea", "abdominal pain"], "urgency": "moderate" },
+    { "name": "Insecticides", "threshold_mg_per_kg": 0.5, "symptoms": ["tremors", "vomiting", "diarrhea"], "urgency": "high" },
+    { "name": "Lead Paint", "threshold_mg_per_kg": 1, "symptoms": ["vomiting", "lethargy", "neurologic signs"], "urgency": "high" },
+    { "name": "Silica Gel", "threshold_mg_per_kg": 5, "symptoms": ["GI irritation"], "urgency": "low" },
+    { "name": "Zinc", "threshold_mg_per_kg": 1, "symptoms": ["vomiting", "hemolysis", "kidney damage"], "urgency": "high" },
+    { "name": "Human NSAIDs (Naproxen)", "threshold_mg_per_kg": 5, "symptoms": ["vomiting", "ulcers", "kidney failure"], "urgency": "high" },
+    { "name": "Toads (toxins)", "threshold_mg_per_kg": 0.1, "symptoms": ["foaming at the mouth", "seizures"], "urgency": "high" },
+    { "name": "Fireworks", "threshold_mg_per_kg": 1, "symptoms": ["GI upset", "chemical burns"], "urgency": "high" },
+    { "name": "Lighter Fluid", "threshold_mg_per_kg": 1, "symptoms": ["vomiting", "aspiration risk"], "urgency": "high" },
+    { "name": "Calcium Supplements (excess)", "threshold_mg_per_kg": 20, "symptoms": ["vomiting", "constipation", "kidney issues"], "urgency": "moderate" },
+    { "name": "Charcoal Briquettes", "threshold_mg_per_kg": 2, "symptoms": ["GI blockage", "vomiting"], "urgency": "moderate" },
+    { "name": "Essential Oils (e.g., Tea Tree)", "threshold_mg_per_kg": 1, "symptoms": ["drooling", "lethargy", "tremors"], "urgency": "high" },
+    { "name": "Mothballs", "threshold_mg_per_kg": 0.2, "symptoms": ["vomiting", "seizures", "liver damage"], "urgency": "high" }
+  ]
+}
+
