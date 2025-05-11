@@ -1,63 +1,53 @@
 # SafePet
 
-# 🐾 SafePet
+**SafePet** is a simple tool for pet owners to better understand what happens when their pets get into something they shouldn’t. It’s designed to help you quickly check how serious a situation might be—based on your pet’s species, weight, and what they may have eaten.
 
-**SafePet** is a user-friendly web tool that helps pet owners quickly assess potential toxin ingestion risks based on species, weight, and known veterinary thresholds. Whether your dog got into the chocolate, your cat nibbled on some Tylenol, or your hamster chewed something suspicious—SafePet helps you figure out what to do next.
-
----
-
-## 🚀 Features
-
-- 🐶 Multi-species support: Dog, Cat, Guinea Pig, Ferret, Hamster  
-- ⚠️ Toxin ingestion calculator (mg/kg based risk levels)  
-- 🧼 Clean, mobile-friendly interface  
-- 💬 Human-centered explanations (not just medical jargon)  
-- 🔬 Chemistry-backed, vet-informed guidance  
+Right now, SafePet focuses on toxin lookups. You enter a few details about your pet and how much of a substance they may have ingested, and the app gives you an idea of the potential risk based on real veterinary thresholds.
 
 ---
 
-## ✅ How It Works
+## What you can do with SafePet
 
-1. Choose your pet's species, weight, age, and sex  
-2. Pick the toxin from an alphabetized list  
-3. Enter the estimated amount your pet ingested (in grams)  
-4. Get immediate feedback on possible toxicity, what it means, and what to ask your vet  
+- Look up common toxins and substances
+- Enter your pet’s weight and species to get a personalized risk estimate
+- Get plain-language explanations of what the values mean
+- Know when it’s time to call your vet
 
----
-
-## 👩‍⚕️ Why SafePet?
-
-Veterinary emergencies can be overwhelming. **SafePet** is designed to give pet parents a clearer sense of urgency—without replacing a vet visit. It bridges the gap between panic-Googling and professional care.
+Supported species include: dogs, cats, guinea pigs, hamsters, and ferrets.
 
 ---
 
-## 🛠 Tech Stack
+## How it works
 
-- HTML / CSS / JavaScript  
-- Static JSON database for toxin thresholds  
-- Designed for GitHub Pages (no backend needed)  
-
----
-
-## 📄 License
-
-MIT License — free to use, modify, and share.
+1. Choose your pet's species, weight, and basic info  
+2. Select a toxin from the list  
+3. Enter the estimated amount ingested  
+4. Get a quick risk summary and suggestions on what to ask your vet
 
 ---
 
-## 🙌 Contributing
+## In progress
 
-Got ideas or want to add more toxins to the database? Open a pull request or start a discussion. Vet students, techs, and pet lovers welcome!
+This is an early version. Future updates will include:
 
----
-
-## ✨ Live Demo
-
-**Coming soon!** You'll be able to try SafePet right in your browser—no downloads needed.
+- Lab result explanations (like liver and kidney values)
+- Tracking for chronic health conditions
+- A print-friendly summary you can bring to the vet
 
 ---
 
-## 💬 Contact
+## Tech notes
 
-Made with love (and a lot of coffee) by people who care about your pets.  
-If you have suggestions or want to help out, reach out via gwenfuri2@outlook.com or open an issue.
+Built with HTML, CSS, and JavaScript. Toxin data is stored in a simple JSON file. You can run the whole thing locally or host it on GitHub Pages—no backend required.
+
+---
+
+## License
+
+MIT License. Free to use, adapt, and build on.
+
+---
+
+## Want to help?
+
+Feel free to open a pull request if you’d like to add more toxins or suggest features. This is a side project built out of love for animals (and maybe a bit of panic from past vet visits).
