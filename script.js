@@ -62,3 +62,54 @@ form.addEventListener("submit", (e) => {
     </p>
   `;
 });
+
+// Pill Identifier via OpenFDA API
+function identifyPill() {
+  const imprint = document.getElementById("pillImprint").value.trim().toUpperCase();
+  const color = document.getElementById("pillColor").value.trim().toLowerCase();
+  const shape = document.getElementById("pillShape").value.trim().toLowerCase();
+  const resultBox = document.getElementById("pill-result");
+  const button = document.querySelector("#pill-identifier button");
+  const spinner = document.getElementById("pill-spinner");
+
+  if (!imprint) {
+    resultBox.innerHTML = "Please enter a valid imprint.";
+    return;
+  }
+
+  // Show loading
+  spinner.style.display = "block";
+  button.disabled = true;
+  button.textContent = "Searching...";
+
+  fetch(`https://api.fda.gov/drug/label.json?search=openfda.imprint:"${imprint}"&limit=1`)
+    .then(res => res.json())
+    .then(data => {
+      if (data.results && data.results.length > 0) {
+        const pill = data.results[0];
+        const name = pill.openfda.brand_name ? pill.openfda.brand_name.join(", ") : "Unknown brand";
+        const warning = pill.warnings ? pill.warnings[0] : "No warning info available.";
+
+        resultBox.innerHTML = `
+          <p><strong>Pill Identified:</strong> ${name}</p>
+          <p><strong>Imprint:</strong> ${imprint}</p>
+          <p><strong>FDA Warning:</strong> ${warning}</p>
+          <p><em>Note: Always verify with a veterinarian before taking action.</em></p>
+        `;
+        resultBox.style.color = "red";
+      } else {
+        resultBox.innerHTML = "❓ No results found in FDA database.";
+        resultBox.style.color = "black";
+      }
+    })
+    .catch(error => {
+      resultBox.innerHTML = "⚠️ Error fetching pill data.";
+      console.error("Pill lookup error:", error);
+    })
+    .finally(() => {
+      spinner.style.display = "none";
+      button.disabled = false;
+      button.textContent = "Identify Pill";
+    });
+}
+
